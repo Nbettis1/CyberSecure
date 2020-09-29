@@ -29,8 +29,8 @@ What aspect of security do load balancers protect?_ Availability.
 What is the advantage of a jump box?_ It allows a single vm to access and control all of the necessary network components.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the file system and system metrics.
-- _What does Filebeat watch for?_Changes to the file system.
-- _What does Metricbeat record?_System metrics, like uptime, or data usage.
+- _What does Filebeat watch for?_ Changes to the file system.
+- _What does Metricbeat record?_ System metrics, like uptime, or data usage.
 
 The configuration details of each machine may be found below.
 
