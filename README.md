@@ -66,7 +66,8 @@ NE Public IP = Network Engineer's Public IP address. Remote access.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- What is the main advantage of automating configuration with Ansible?_ It is incredibly time effecient.
+- It is incredibly time effecient.
+- Updates only have to be run _once_ via the playbook for every machine updated.
 
 The playbook implements the following tasks:
 - _In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
