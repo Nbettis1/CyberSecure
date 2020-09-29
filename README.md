@@ -25,12 +25,12 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly reliable, in addition to restricting direct access to the network.
-What aspect of security do load balancers protect?_ Availability. 
-What is the advantage of a jump box?_ It allows a single vm to access and control all of the necessary network components.
+Load balancers protect the availability of your web servers. 
+The advantage of a jump box is a single vm to access and control all of the necessary network components.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the file system and system metrics.
-- _What does Filebeat watch for?_ Changes to the file system.
-- _What does Metricbeat record?_ System metrics, like uptime, or data usage.
+Filebeat watches for changes to the file system.
+Metricbeat watches for changes to system metrics, like uptime, or data usage.
 
 The configuration details of each machine may be found below.
 
@@ -50,7 +50,7 @@ Only the Jump Box machine can accept connections from the Internet. Access to th
 - Public IP of network engineer.
 
 Machines within the network can only be accessed by the Jump Box.
-- _Which machine did you allow to access your ELK VM? What was its IP address?_ Jump Box 10.0.0.8 
+- Jump Box 10.0.0.8 
 
 A summary of the access policies in place can be found in the table below.
 
