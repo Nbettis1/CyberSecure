@@ -85,10 +85,10 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _List the IP addresses of the machines you are monitoring_ 10.0.0.7, 10.0.0.6, 10.0.0.4
+- _List the IP addresses of the machines you are monitoring:_  10.0.0.7, 10.0.0.6, 10.0.0.4
 
 We have installed the following Beats on these machines:
-- _Specify which Beats you successfully installed_ Metricbeat and Filebeat
+- _Specify which Beats you successfully installed:_  Metricbeat and Filebeat
 
 These Beats allow us to collect the following information from each machine:
 - _In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._ Metricbeat and Filebeat both contain logs of important data on a linux system. Filebeat collects data related to file configurations on a linux server while Metricbeat collects data about system metrics like uptime, data usage, system usage, etc. Winlogbeat collects Windows logs and would send data related to all windows logs including system logs, security logs, application logs and others. 
