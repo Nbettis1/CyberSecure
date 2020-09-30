@@ -78,7 +78,7 @@ The playbook implements the following tasks:
 - Increase virtual memory in current runtime
 - Permanently increase virtual memory on restart
 
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+The following screenshot displays the result of running `sudo docker ps` after successfully configuring the ELK instance.
 
 ![docker_ps_output](https://github.com/Nbettis1/ELK_Repository/blob/master/Diagrams/docker_ps_output.png)
 
