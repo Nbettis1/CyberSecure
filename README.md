@@ -90,7 +90,8 @@ We have installed the following Beats on these machines:
 - Metricbeat and Filebeat
 
 These Beats allow us to collect the following information from each machine:
-- Metricbeat and Filebeat both contain logs of important data on a linux system. Filebeat collects data related to file configurations on a linux server while Metricbeat collects data about system metrics like uptime, data usage, system usage, etc. Winlogbeat collects Windows logs and would send data related to all windows logs including system logs, security logs, application logs and others. 
+- Metricbeat and Filebeat both contain logs of important data on a linux system. Filebeat collects data related to file configurations on a linux server while Metricbeat collects data about system metrics like uptime, data usage, system usage, etc. 
+- If you run a windows server you may run Winlogbeat. Winlogbeat collects Windows logs and would send data related to all windows logs including system logs, security logs, application logs and others. 
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
