@@ -101,9 +101,6 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include the new server IP's and the host name of your choice. (make sure to include 'ansible_python_interpreter=/usr/bin/python3' after the IP)
 - Run the playbook, and navigate to the new servers IP via ssh and run docker ps to check that the installation worked as expected.
 
-_Answer the following questions to fill in the blanks:_
 - install-elk.yml is the elk installatation .yml file. Copy install-elk.yml to the /etc/asnible directory.
 - Update the /etc/ansible/hosts/ file with a new hosts name and specific IPs of each vm in the host. Update the .yml file and specify the host to install on. Additionally you can use --limit when running an ansible-playbook to specify a host name if the file does not specify one. You can additionally limit servers within a host this way.
 - After installation and allowing Kibana port access to your IP go to http://[your.ELK-VM.External.IP]:5601/app/kibana.
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
