@@ -1,4 +1,4 @@
-# CyberSecure
+# Cybersecurity
 Information Security repository
 ## Automated ELK Stack Deployment
 
